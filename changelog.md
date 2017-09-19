@@ -1,5 +1,13 @@
 # azurerm - change log
 
+### v0.9.1 (9/18/2017): 
+- Add put_vmss() and put_vmss_vm() functions for easy updating of scale set properties.
+- Note: put_vmss_vm() is currently preview and won't work outside of Canary environments.
+
+### v0.9.0 (9/16/2017): 
+- Integration with msleal's Azure Media Services API wrapper library.
+- Part 1: integration of core APIs. Example library integration planned.
+
 ### v0.8.28 (8/29/17):
 - BREAKING CHANGE: 
   Improved scale_vmss() to no longer require VM size or sku - now it only requires resource group,
